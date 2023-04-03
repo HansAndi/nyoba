@@ -20,7 +20,7 @@ class MenuFactory extends Factory
             'nama' => $this->faker->name,
             'deskripsi' => $this->faker->text,
             'harga' => $this->faker->randomFloat(2, 0, 100),
-            'gambar' => $this->faker->image
+            'gambar' => $this->faker->name
         ];
     }
 }
